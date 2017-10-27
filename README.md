@@ -31,5 +31,8 @@ BSD-style license available in the LICENSE file.
 
 ## Get in touch
 
+* GitHub: [https://github.com/npclaudiu/vscode-gn](https://github.com/npclaudiu/vscode-gn)
+* Visual Studio Marketplace: [https://marketplace.visualstudio.com/items?itemName=npclaudiu.vs-code-gn](https://marketplace.visualstudio.com/items?itemName=npclaudiu.vscode-gn)
+
 Please feel free to contact me at `npclaudiu@gmail.com` if you
 have any questions or suggestions.
