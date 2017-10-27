@@ -1,0 +1,27 @@
+{
+    "name": "vscode-gn",
+    "displayName": "GN",
+    "description": "Edit GN files in Visual Studio Code",
+    "version": "1.0.0",
+    "publisher": "npclaudiu",
+    "engines": {
+        "vscode": "^1.17.0"
+    },
+    "license": "BSD",
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "gn",
+            "aliases": ["GN", "gn"],
+            "extensions": [".gn",".gni"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "gn",
+            "scopeName": "source.gn",
+            "path": "./syntaxes/GN.tmLanguage.json"
+        }]
+    }
+}
