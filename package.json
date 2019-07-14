@@ -9,19 +9,29 @@
     },
     "license": "BSD",
     "categories": [
-        "Languages"
+        "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "gn",
-            "aliases": ["GN", "gn"],
-            "extensions": [".gn",".gni"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "gn",
-            "scopeName": "source.gn",
-            "path": "./syntaxes/GN.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "gn",
+                "aliases": [
+                    "GN",
+                    "gn"
+                ],
+                "extensions": [
+                    ".gn",
+                    ".gni"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "gn",
+                "scopeName": "source.gn",
+                "path": "./GN.tmLanguage.json"
+            }
+        ]
     }
 }
