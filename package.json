@@ -1,7 +1,7 @@
 {
     "name": "vscode-gn",
     "displayName": "GN",
-    "description": "Edit GN files in Visual Studio Code",
+    "description": "GN Syntax Highlighting for Visual Studio Code",
     "version": "1.1.0",
     "publisher": "npclaudiu",
     "engines": {
