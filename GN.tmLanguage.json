@@ -38,12 +38,12 @@
     },
     {
       "comment": "targets",
-      "match": "\\b(?:action|action_foreach|copy|executable|group|loadable_module|shared_library|source_set|static_library)\\b",
+      "match": "\\b(?:action|action_foreach|copy|executable|group|loadable_module|shared_library|source_set|static_library|generated_file)\\b",
       "name": "entity.name.tag.gn"
     },
     {
       "comment": "functions",
-      "match": "\\b(?:assert|config|declare_args|defined|exec_script|foreach|get_label_info|get_path_info|get_target_outputs|getenv|import|print|process_file_template|read_file|rebase_path|set_default_toolchain|set_defaults|set_sources_assignment_filter|template|tool|toolchain|toolchain_args|write_file)\\b",
+      "match": "\\b(?:assert|config|declare_args|defined|exec_script|foreach|get_label_info|get_path_info|get_target_outputs|getenv|import|print|process_file_template|read_file|rebase_path|set_default_toolchain|set_defaults|set_sources_assignment_filter|template|tool|toolchain|toolchain_args|propagates_configs|write_file)\\b",
       "name": "entity.name.function.gn"
     },
     {
@@ -53,7 +53,7 @@
     },
     {
       "comment": "target variables",
-      "match": "\\b(?:all_dependent_configs|allow_circular_includes_from|args|asmflags|cflags|cflags_c|cflags_cc|cflags_objc|cflags_objcc|check_includes|complete_static_lib|configs|data|data_deps|defines|depfile|deps|include_dirs|inputs|ldflags|lib_dirs|libs|output_extension|output_name|outputs|public|public_configs|public_deps|script|sources|testonly|visibility)\\b",
+      "match": "\\b(?:all_dependent_configs|allow_circular_includes_from|args|asmflags|cflags|cflags_c|cflags_cc|cflags_objc|cflags_objcc|check_includes|complete_static_lib|configs|data|data_deps|defines|depfile|deps|include_dirs|inputs|ldflags|lib_dirs|libs|output_extension|output_name|outputs|public|public_configs|public_deps|script|sources|testonly|visibility|contents|output_conversion|rebase|data_keys|walk_keys)\\b",
       "name": "entity.other.attribute-name.gn"
     }
   ],
