@@ -2,12 +2,16 @@
     "name": "vscode-gn",
     "displayName": "GN",
     "description": "Edit GN files in Visual Studio Code",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "publisher": "npclaudiu",
     "engines": {
         "vscode": "^1.17.0"
     },
     "license": "BSD",
+    "repository": {
+        "type" : "git",
+        "url" : "https://github.com/npclaudiu/vscode-gn.git"
+    },
     "categories": [
         "Programming Languages"
     ],
