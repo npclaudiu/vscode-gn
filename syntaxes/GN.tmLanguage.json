@@ -7,7 +7,7 @@
   "patterns": [
     {
       "comment": "keywords",
-      "match": "\\b(?:if)\\b",
+      "match": "\\b(?:if|else)\\b",
       "name": "keyword.control.gn"
     },
     {
