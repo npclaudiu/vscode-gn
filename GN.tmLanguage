@@ -39,7 +39,7 @@
       <key>comment</key>
       <string>double quoted string</string>
       <key>match</key>
-      <string>\"[^\"]*\"</string>
+      <string>\".*?(?<!\\)(\\\\)*\"</string>
       <key>name</key>
       <string>string.quoted.double.gn</string>
     </dict>
